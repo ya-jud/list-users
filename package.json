@@ -1,0 +1,50 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "build-prod": "webpack --mode=production",
+    "clean": "rd /s /q dist"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "Vitaliy",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@reduxjs/toolkit": "^1.8.2",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "axios": "^0.27.2",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.5",
+    "babel-preset-react-app": "^3.1.2",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "history": "^5.3.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.2",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}

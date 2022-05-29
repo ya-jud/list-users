@@ -1,0 +1,27 @@
+%center-alignment
+  display: flex
+  align-items: center
+  justify-content: center
+
+.getUsersButton
+  @extend %center-alignment
+  width: 200px
+  height: 200px
+
+.button
+  @extend %center-alignment
+  background: #778899
+  width: 200px
+  height: 50px
+  text-transform: uppercase
+  font-family: Arial, Helvetica, sans-serif
+  font-size: 20px
+  font-weight: bold
+  color: #f2f2f2
+  cursor: pointer
+  user-select: none
+  transition: all .2s
+  &:hover
+    box-shadow: 10px 10px 10px #ADD8E6
+  &:active
+    box-shadow: 2px 2px 5px #778899
